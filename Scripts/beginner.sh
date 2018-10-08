@@ -21,5 +21,7 @@ echo "This is a string: $COLOR"
 echo "And this is a number: $VALUE"
 echo
 
+echo "Please enter your favorite color, followed by [ENTER]:"
+
 echo "I'm giving you back your prompt now."
 echo
