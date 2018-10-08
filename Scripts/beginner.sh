@@ -6,7 +6,7 @@ echo "The script starts now."
 echo
 
 echo "Please type in your name, followed by [ENTER]:"
-
+#user entering name -- basic
 read USER
 
 echo "Hi, $USER!"
@@ -22,6 +22,7 @@ echo "And this is a number: $VALUE"
 echo
 
 echo "Please enter your favorite color, followed by [ENTER]:"
+#user entering name -- with an if statement checking what they put
 read FAVCOLOR
 
 if [ "$FAVCOLOR" == "purple" ]; then
