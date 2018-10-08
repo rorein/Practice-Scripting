@@ -6,11 +6,11 @@ echo "The script starts now."
 echo
 
 echo "Please type in your name, followed by [ENTER]:"
-echo
 
 read USER
 
 echo "Hi, $USER!"
+echo
 
 echo "I'm setting two variables now."
 COLOR="black"
@@ -31,6 +31,8 @@ elif [ "$FAVCOLOR" == "rainbow" ]; then
 else
 	echo "That's not a very nice color!"
 fi
+
+echo
 
 echo "I'm giving you back your prompt now."
 echo
