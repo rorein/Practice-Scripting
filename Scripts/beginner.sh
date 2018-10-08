@@ -3,7 +3,12 @@
 clear
 
 echo "The script starts now."
-USER="Rose"
+echo
+
+echo "Please type in your name, followed by [ENTER]:"
+echo
+
+read USER
 
 echo "Hi, $USER!"
 
