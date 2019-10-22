@@ -7,9 +7,9 @@ echo
 
 echo "Please type in your name, followed by [ENTER]:"
 #user entering name -- basic
-read USER
+read NAME
 
-echo "Hi, $USER!"
+echo "Hi, $NAME!"
 echo
 
 echo "I'm setting two variables now."
